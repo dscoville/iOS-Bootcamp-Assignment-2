@@ -14,6 +14,7 @@
 		91D359971BE1F1D1004FD8FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D359951BE1F1D1004FD8FD /* LaunchScreen.storyboard */; };
 		91D359A21BE1F1D1004FD8FD /* Week2AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D359A11BE1F1D1004FD8FD /* Week2AssignmentTests.swift */; };
 		91D359AD1BE1F1D1004FD8FD /* Week2AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D359AC1BE1F1D1004FD8FD /* Week2AssignmentUITests.swift */; };
+		91D359BF1BE1F659004FD8FD /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D359BE1BE1F659004FD8FD /* IntroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		91D359A81BE1F1D1004FD8FD /* Week2AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week2AssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D359AC1BE1F1D1004FD8FD /* Week2AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week2AssignmentUITests.swift; sourceTree = "<group>"; };
 		91D359AE1BE1F1D1004FD8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91D359BE1BE1F659004FD8FD /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				91D3598C1BE1F1D1004FD8FD /* AppDelegate.swift */,
 				91D3598E1BE1F1D1004FD8FD /* ViewController.swift */,
 				91D359901BE1F1D1004FD8FD /* Main.storyboard */,
+				91D359BE1BE1F659004FD8FD /* IntroViewController.swift */,
 				91D359931BE1F1D1004FD8FD /* Assets.xcassets */,
 				91D359951BE1F1D1004FD8FD /* LaunchScreen.storyboard */,
 				91D359981BE1F1D1004FD8FD /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				91D3598F1BE1F1D1004FD8FD /* ViewController.swift in Sources */,
 				91D3598D1BE1F1D1004FD8FD /* AppDelegate.swift in Sources */,
+				91D359BF1BE1F659004FD8FD /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
